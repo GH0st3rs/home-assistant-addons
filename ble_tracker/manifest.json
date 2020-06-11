@@ -1,0 +1,7 @@
+{
+  "domain": "ble_tracker",
+  "name": "Bluetooth LE Tracker",
+  "documentation": "https://www.home-assistant.io/integrations/bluetooth_le_tracker",
+  "requirements": ["bluepy"],
+  "codeowners": []
+}

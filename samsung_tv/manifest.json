@@ -1,0 +1,16 @@
+{
+  "domain": "samsung_tv",
+  "name": "Samsung Smart TV",
+  "documentation": "https://www.home-assistant.io/integrations/samsungtv",
+  "requirements": [
+    "samsungctl[websocket]==0.7.1",
+    "samsungtvws[websocket]==1.4.0"
+  ],
+  "ssdp": [
+    {
+      "st": "urn:samsung.com:device:RemoteControlReceiver:1"
+    }
+  ],
+  "codeowners": ["@gh0st3rs"],
+  "config_flow": true
+}
